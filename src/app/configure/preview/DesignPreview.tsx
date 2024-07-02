@@ -101,9 +101,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
             <p className='font-medium text-zinc-950'>Highlights</p>
             <ol className='mt-3 text-zinc-700 list-disc list-inside'>
               <li>Wireless charging compatible</li>
-              <li>TPU shock absorption</li>
               <li>Packaging made from recycled materials</li>
-              <li>5 year print warranty</li>
             </ol>
           </div>
           <div>

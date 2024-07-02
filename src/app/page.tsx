@@ -16,12 +16,16 @@ export default function Home() {
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
-                <img src="/dax.jpg" className="w-full rounded-full" alt="main image" />
+                <img
+                  src="/dax.jpg"
+                  className="w-full rounded-full"
+                  alt="main image"
+                />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Your Image on a{" "}
-                <span className="bg-black px-2 text-white">Custom</span>{" "}
-                Phone Case
+                <span className="bg-black px-2 text-white">Custom</span> Phone
+                Case
               </h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
                 {" "}
@@ -36,17 +40,13 @@ export default function Home() {
                     <Check className="h-5 w-5 shrikt-0 text-green-600" />
                     Hight quality, durable material
                   </li>
-                  <li className="flex gap-1.5 items-center text-left">
-                    <Check className="h-5 w-5 shrikt-0 text-green-600" />5 year
-                    print guarantee
-                  </li>
+
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrikt-0 text-green-600" />
                     Modern iphone models supported
                   </li>
                 </div>
               </ul>
-       
             </div>
           </div>
           <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
@@ -67,12 +67,12 @@ export default function Home() {
         </MaxWidthWrapper>
       </section>
       {/* value proposition section */}
-      <section className="bg-slate-100 grainy-dark py-24">
+      {/* <section className="bg-slate-100 grainy-dark py-24">
 
         <div className="pt-16">
           <Reviews />
         </div>
-      </section>
+      </section> */}
       <section>
         <MaxWidthWrapper className="py-24">
           <div className="mb-12 px-6 lg:px-8">
@@ -96,18 +96,16 @@ export default function Home() {
 
               <div className="relative h-80 md:h-full w-full md:justify-self-end max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 lg:rounded-2xl">
                 <img
-                  src="/horse.jpg"
+                  src="/dax.jpg"
                   className="rounded-md object-cover bg-white shadow-2xl ring-1 ring-gray-900/10 h-full w-full"
                   alt="horse"
                 />
               </div>
 
-              <Phone className="w-60" imgSrc="/horse_phone.jpg" />
+              <Phone className="w-60" imgSrc="/dax.jpg" />
             </div>
           </div>
           <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit">
-
-
             <div className="flex justify-center">
               <Link
                 className={buttonVariants({

@@ -221,7 +221,7 @@ const DesignConfigurator = ({
           />
           <div className="px-8 pb-12 pt-8">
             <h2 className="tracking-tight font-bold text-3xl">
-              Customize your case
+              Kostumizo case-in tend
             </h2>
             <div className="w-full h-px bg-zinc-200 my-6" />
             <div className="relative mt-4 h-full flex flex-col justify-between">
@@ -235,7 +235,7 @@ const DesignConfigurator = ({
                     }));
                   }}
                 >
-                  <Label>Color: {options.color.label}</Label>
+                  <Label>Ngjyra: {options.color.label}</Label>
                   <div className="mt-3 flex items-center space-x-3">
                     {COLORS.map((color) => (
                       <RadioGroup.Option

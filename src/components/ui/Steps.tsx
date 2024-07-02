@@ -6,18 +6,18 @@ import { usePathname } from 'next/navigation'
 
 const STEPS = [
   {
-    name: 'Step 1: Add image',
-    description: 'Choose an image for your case',
+    name: 'Hapi i pare: Shtoni foton',
+    description: 'Shtoni nje foto per case-in tuaj',
     url: '/upload',
   },
   {
-    name: 'Step 2: Customize design',
-    description: 'Make the case yours',
+    name: 'Step 2: Kostumizo dizajnin',
+    description: 'Bëjeni case-in tuajin',
     url: '/design',
   },
   {
-    name: 'Step 3: Summary',
-    description: 'Review your final design',
+    name: 'Step 3: Finalja',
+    description: 'Rishikoni dizajnin final',
     url: '/preview',
   },
 ]

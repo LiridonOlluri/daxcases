@@ -70,6 +70,7 @@ export async function POST(req: Request) {
           },
         },
       });
+      await resend.domains.verify("1b0bc3bb-e08d-4ca0-b416-974f9bc66e7d");
 
       await resend.emails.send({
         from: "DaxCases <hello@trikagiftshop.online>",
