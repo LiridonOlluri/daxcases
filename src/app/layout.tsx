@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Providers from "@/components/ui/Providers";
 import { constructMetadata } from "@/lib/utils";
 
+
 const inter = Recursive({ subsets: ["latin"] });
 
 export const metadata = constructMetadata()
@@ -32,3 +33,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
