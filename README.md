@@ -6,10 +6,6 @@ Welcome to DaxCases! This web application allows users to order custom cases wit
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
